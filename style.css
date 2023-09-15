@@ -46,6 +46,12 @@ p {
 .text-yellow-brown {
   color: #c48d68;
 }
+.f-sm {
+  font-size: 3rem;
+}
+.f-md {
+  font-size: 5rem;
+}
 .bg-yellow-brown {
   background: #c48d68;
 }
@@ -108,6 +114,12 @@ p {
   .menu-mobile li a {
     color: #fff;
   }
+  .f-sm {
+    font-size: 1.5rem;
+  }
+  .f-md {
+    font-size: 4rem;
+  }
   /* Animation */
   @keyframes show-down {
     from {
@@ -123,7 +135,7 @@ p {
     display: block;
   }
   .ctn-video iframe {
-    width: 380px;
+    width: 340px;
     height: 214px;
   }
 }
