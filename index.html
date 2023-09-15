@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Raízes ALto da Freguesia</title>
+</head>
+
+<body>
+  <header class="header sm:h-screen grid content-between">
+    <nav class="w-full px-3 bg-yellow-brown fixed z-10">
+      <div class="ctn-center menu-desktop ">
+        <div class="flex items-center justify-between btn-menu">
+          <img src="./images/raizes.svg" alt="" width="120" class="py-2">
+          <i class="fa-solid fa-bars icon-menu text-red-brown cursor-pointer"></i>
+        </div>
+        <ul class="menu-mobile">
+          <li><a href="#lazer">Lazer</a></li>
+          <li><a href="#video">Assiste ao Vídeo</a></li>
+          <li><a href="#projeto">O Projeto</a></li>
+          <li><a href="#perspectivas">Perspectiva</a></li>
+          <li><a href="#plantas">Plantas</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+        <div class="md:flex hidden text-red-brown gap-4">
+          <div class="flex gap-1">
+            <i class="fa-solid fa-phone text-base"></i>
+            <li>11 4118-4499</li>
+          </div>
+          <div class="flex gap-1">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <li>11 99844-0011</li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="w-full h-screen flex absolute items-center justify-center">
+      <div class="text-white">
+        <p class="text-5xl text-center">aptos. studio de </p>
+        <h1 class="text-8xl text-center">1, 2 e 3 dorms.</h1>
+        <h1 class="text-5xl text-center">de 28 a 147m<sup>2</sup></h1>
+        <h1 class="text-center text-xl py-3 mt-4 uppercase font-bold">a 350m da futura estação de metrô <strong class="font-bold">João Paulo I</strong></h1>
+      </div>
+    </div>
+
+    <img src="./images/banner.png" alt="">
+  </header>
+  <section class="ctn-global py-16 px-3" id="lazer">
+    <div class="ctn-center grid md:grid-cols-2 items-center justify-between gap-5">
+      <div>
+        <h2 class="second-title text-red-brown uppercase mb-4">lazer que vai além das opções, projetado para você lembrar que está no topo.</h2>
+        <p>Com mais de 59 anos de experiência em incorporação e inúmeros empreendimentos de sucesso, a Mitre orgulha-se de utilizar as técnicas mais modernas de gestão, concepção, execução e relacionamento, tendo como pilares a excelência, a inovação e a transparência.</p>
+        <p>Com essa cultura, surpreendemos o mercado imobiliário, lançamos a linha de produtos Raízes, um grande sucesso de vendas do mercado imobiliário paulistano, e consolidamos o morar com um “M” a mais com a confiança e a satisfação de nossos clientes.</p>
+      </div>
+      <img src="./images/lazer.png" alt="" class="w-full w-scren">
+    </div>
+  </section>
+  <section class="ctn-global flex justify-center items-center bg-yellow-brown py-16" id="video">
+    <div class="ctn-center justify-between gap-5 px-3">
+      <h2 class="second-title text-red-brown text-center mb-4">Assista ao vídeo</h2>
+      <div class="w-full flex justify-center ctn-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2cEo-v6o9aE?si=jn6DJANSzY2TZZmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <section class="ctn-global py-5" id="projeto">
+    <div class="md:flex ctn-center items-center justify-between px-3">
+      <div>
+        <h2 class="second-title uppercase text-red-brown">um projeto assinado por profissionais premiados no brasil e no mundo.</h2>
+        <div class="mt-6">
+          <p class="mb-2 text-red-brown font-bold">Projeto Arquitetônico | JONAS BIRGER</p>
+          <p>Arquiteto de renome nacional, desenvolveu e participou de diversos projetos, desde a escala familiar até a escala urbana. </p>
+        </div>
+        <div class="mt-6">
+          <p class="mb-2 text-red-brown font-bold">Projeto de Interiores | ARCHIAVE DESIGN E ARQUITETURA</p>
+          <p>Contemporâneas em estilo e acreditando que a arquitetura beneficia a qualidade de vida das pessoas por meio da estética, do bem-estar e da praticidade.</p>
+        </div>
+        <div class="mt-6">
+          <p class="mb-2 text-red-brown font-bold">Projeto Paisagístico | Beth Miyazaki Arquitetura Paisagística</p>
+          <p>Formada em arquitetura pela Faculdade de Arquitetura e Urbanismo da USP, vem atuando há mais de 25 anos no mercado imobiliário no desenvolvimento de projetos paisagísticos de residências, condomínios residenciais, comerciais, corporativos e urbanísticos.</p>
+        </div>
+      </div>
+      <img src="./images/predio.png" alt="" class="w-full h-full">
+    </div>
+  </section>
+  <section class="ctn-center" id="perspectivas">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <h2 class="second-title text-center text-red-brown mb-4">Perspectiva Ilustrada</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/perspectiva1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perspectiva2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perspectiva3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="ctn-global py-16" id="plantas">
+    <div class="ctn-center px-4">
+      <h2 class="second-title text-center text-red-brown">Plantas do apto de 85m<sup>2</sup></h2>
+      <div class="ctn-slide">
+        <img src="./images/planta85m.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="ctn-global" id="localizacao">
+    <h2 class="second-title text-center text-red-brown mb-4">Localização</h2>
+    <div class="ctn-slide">
+      <img src="./images/localizacao.png" alt="">
+    </div>
+  </section>
+  <section class="ctn-global flex justify-center py-16 px-3">
+    <div class="grid max-w-2xl justify-items-center">
+      <h2 class="second-title text-center text-red-brown">Entre em contato</h2>
+      <p class="text-center"></p>
+      <form>
+        <input class="w-full py-3 px-3 border-color-gold mt-4" type="text" placeholder="*Nome">
+        <input class="w-full py-3 px-3 border-color-gold mt-4" type="number" placeholder="*Telefone">
+        <input class="w-full py-3 px-3 border-color-gold mt-4" type="email" placeholder="*E-mail">
+        <textarea class="w-full py-3 px-3 border-color-gold mt-4" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button class="bg-yellow-brown px-5 py-3 rounded-2 text-white">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <div class="btnTop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+  <footer>
+    <div class="text-align bg-yellow-brown">
+      <div class="sm:flex justify-center items-center gap-8 pt-4 max-w-md m-auto">
+        <img src="./images/mitre1.png" alt="" width="130" class="m-auto">
+        <img src="./images/mitre2.png" alt="" width="280" class="m-auto">
+      </div>
+      <p class="text-center text-white py-8 px-4 text-xs">&copy; Incorporação registrada sob o R.2, da matrícula nº 206.166 do 8° Oficial de Registro de Imóveis de São Paulo, em 07 de junho de 2022. Intermediação: LPS São Paulo – Consultoria de Imóveis Ltda., CNPJ 15.673.605/0001-10, CRECI/SP J-24073. Mitre Vendas Corretagem de Imóveis Ltda., CNPJ 21.677.690/0001-98, Creci J-26794. Imagens meramente ilustrativas.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
